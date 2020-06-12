@@ -1,4 +1,4 @@
 my home lab confs
 
-* the hive
-* the bees
+* the hive (linux host + virtualbox + docker-machine)
+* the bees (boot2bocker based vms)
