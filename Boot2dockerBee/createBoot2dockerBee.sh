@@ -1,4 +1,6 @@
 ## creation of the machine
+## $1 -> name of the vm to create
+## $2 -> local network interface for the bridge
 docker-machine create --driver virtualbox $1
 ## put my aut key for ssh auth
 docker-machine scp   authorized_keys $1:/var/lib/boot2docker
